@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SprintType</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="updates">New updates will be visible here.</div>
+  <div class="app">
+    <header>
+      <div class="brand">
+        <img src="images/runTransparent.png" alt="Logo" class="logo">
+        <div class="brand-text">
+          <h1 class="app-name">SprintType</h1>
+          <span>Train &bull; Improve &bull; Repeat.</span>
+        </div>
+      </div>
+      <nav>
+        <div class="mainIcon icon">
+          <i class="fa-solid fa-keyboard"></i>
+        </div>
+        <div class="mainIcon icon">
+          <i class="fa-solid fa-ranking-star"></i>
+        </div>
+        <div class="mainIcon icon">
+          <i class="fa-solid fa-info"></i>
+        </div>
+        <div class="mainIcon icon">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="mainIcon icon">
+          <i class="fa-regular fa-bell"></i>
+        </div>
+        <div class="mainIcon icon">
+          <i class="fa-solid fa-user-pen"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="personalize">
+      <div class="timers">
+        <button class="subIcon icon" id="fifteenSec">15</button>
+        <button class="subIcon icon" id="thirtySec">30</button>
+        <button class="subIcon icon" id="sixtySec">60</button>
+        <button class="subIcon icon" id="oneTwentySec">120</button>
+        <div class="subIcon icon">
+          <i class="fa-solid fa-wrench"></i>
+        </div>
+      </div>
+      <div class="restartTest" id="restartTest">
+        <div class="subIcon icon">
+          <i class="fa-solid fa-repeat"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="statsBar" id="statsBar"> 
+      <div class="statsBox timeUnit">
+        <span class="timeRemaining" id="timeRemaining">30</span>
+        <span class="unitOfTime">s</span>
+      </div> 
+      <div class="statsBox">
+        <span id="grossWPM">0</span>
+        <p>Raw WPM</p>
+      </div>
+      <div class="statsBox">
+        <span id="netWPM">0</span>
+        <p>WPM</p>
+      </div>
+      <div class="statsBox">
+        <div class="accuracyValue">
+          <span id="accuracy">100</span>
+          <span class="percentSign">&#37</span>
+        </div>
+        <p>Accuracy</p>
+      </div>
+      <div class="statsBox">
+        <span id="totalTyped">0</span>
+        <p>Keystrokes</p>
+      </div>
+
+    </section>
+
+
+  
+    <p id="modeMsg"></p>
+    <label class="switch">
+      <input type="checkbox" id="strictToggle">
+      <span class="slider round"></span>
+    </label>
+    <div class="targetTextContainer" id="targetTextContainer">
+      <div class="textDisplay" id="textDisplay"></div>
+    </div>
+
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
+
