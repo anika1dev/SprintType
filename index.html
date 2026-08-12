@@ -5,7 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SprintType</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="styles.css">
+
+  <!--
+
+    <link rel="stylesheet" href="onePageStyle.css">
+
+-->
+    
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/personalize.css">
+  <link rel="stylesheet" href="styles/stats.css">
+  <link rel="stylesheet" href="styles/switch.css">
+  <link rel="stylesheet" href="styles/textDisplay.css">
 </head>
 <body>
   <div class="updates">New updates will be visible here.</div>
@@ -85,12 +97,13 @@
     </section>
 
 
-  
-    <p id="modeMsg"></p>
-    <label class="switch">
-      <input type="checkbox" id="strictToggle">
-      <span class="slider round"></span>
-    </label>
+    <div class="strictModeContainer">
+      <p id="modeMsg"></p>
+      <label class="switch">
+        <input type="checkbox" id="strictToggle">
+        <span class="slider round"></span>
+      </label>
+    </div>
     <div class="targetTextContainer" id="targetTextContainer">
       <div class="textDisplay" id="textDisplay"></div>
     </div>

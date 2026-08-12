@@ -1,0 +1,46 @@
+.personalize{
+  height: 8%;
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.timers, .restartTest{  
+  height: 3rem;
+  border-radius: 8px;
+  background-color: #b4a389;
+}
+
+.timers{
+  width: 16%;
+  display: flex;
+  padding: 4px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.restartTest{
+  width: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.timers > button{
+  border: none;
+  background: none;
+  color: #57390c;
+}
+
+.timers > button:focus-visible {
+  outline: none;
+}
+
+
+.activeTimer{
+  color : var(--main-color);
+}

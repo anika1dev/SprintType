@@ -1,0 +1,44 @@
+:root {
+    --bg-color: #c6b294;
+    --main-color: #405a52;
+    --text-color: #57390c;
+}
+*{
+  box-sizing: border-box;
+}
+html,
+body{
+  overflow: hidden;
+  font-family: "Roboto Mono", "Vazirharf", monospace;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.updates{
+  height: 4%;
+  width: 100%;
+  background-color: var(--main-color);
+  color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+  word-spacing: 8px;
+}
+
+.app{
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}

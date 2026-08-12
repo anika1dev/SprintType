@@ -1,0 +1,60 @@
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8%;
+  width: 80%;  
+  margin-top: 16px;
+}
+.brand{
+  display: flex;
+  gap: 2px;
+  color: #0a251d;
+  font-family: system-ui;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.brand-text{
+  display: flex;
+  flex-direction: column;
+}
+.brand-text h1{
+  font-size: 2rem;
+  margin: 4px 0 0 0;
+}
+.brand-text span{
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  margin-top: 2px;
+  color: rgba(81, 53, 11, 0.65);
+  text-transform: uppercase;
+}
+
+.logo{
+  height: 56px;
+  width: 56px;
+  transform: translateY(10px);
+}
+
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 56%;
+  gap: 2%;
+  margin-right: 20px; 
+}
+
+.icon{
+  font-size: large;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+.mainIcon:hover{
+  transform : scale(1.2);
+  color: black;
+}
+.subIcon:hover{
+  color: black;
+}
