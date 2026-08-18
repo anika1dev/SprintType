@@ -15,7 +15,7 @@
 }
 
 .timers{
-  width: 16%;
+  min-width: max(16%, 220px);
   display: flex;
   padding: 4px;
   justify-content: space-around;
@@ -23,7 +23,7 @@
 }
 
 .restartTest{
-  width: 4%;
+  min-width: max(4%, 48px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,3 +44,4 @@
 .activeTimer{
   color : var(--main-color);
 }
+

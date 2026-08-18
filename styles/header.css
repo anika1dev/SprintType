@@ -58,3 +58,20 @@ nav{
 .subIcon:hover{
   color: black;
 }
+
+@media (max-width: 768px){
+  header{
+    width: 94%;
+    height: auto;
+  }
+  .brand-text h1{
+    font-size: 1.5rem;
+  }
+  .brand-text span{
+    font-size: 10px;
+  }
+  .logo{
+    height: 44px;
+    width: 44px;
+  }
+}
